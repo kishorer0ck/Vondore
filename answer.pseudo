@@ -1,0 +1,17 @@
+<HTML !DOCTYPE>
+<title>
+  JS EXAMPLE
+ </title>
+ <head>
+ 	<script type="text/javascript">
+ 	function Result(name){ //function named Result takes name as a parameter
+  	var a = name; //variable
+  	var b = Math.floor(Math.random() * (10)) + 6; // variable within limits 6 to 15
+  	var c = a+" "+b; // variable c stores result as "a b"
+  	return (c); //function Result returns c
+	}
+	var out_put = Result('rahul'); //return result from function Result gets stored in out_put
+	alert(out_put); //alerts the out_put
+
+ </script>
+ </head>
